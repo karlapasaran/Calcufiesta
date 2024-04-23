@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Servicios">
+
+    <ScrollView
+        android:layout_width="402dp"
+        android:layout_height="535dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxComida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comida - $100" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBebida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bebida - $50" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMantel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decoración: Mantel(es) - $20" />
+
+            <CheckBox
+                android:id="@+id/checkBoxCubiertos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decoración: Cubiertos - $10" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPlatos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decoración: Platos - $15" />
+
+            <CheckBox
+                android:id="@+id/checkBoxVasos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decoración: Vasos - $12" />
+
+            <CheckBox
+                android:id="@+id/checkBoxServilletas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decoración: Servilletas - $8" />
+
+            <CheckBox
+                android:id="@+id/checkBoxCentrosDeMesa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decoración: Centros de mesa - $30" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAdornos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decoración: Adornos - $25" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBatucada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decoración: Batucada - $40" />
+
+            <CheckBox
+                android:id="@+id/checkBoxEntretenimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entretenimiento - $150" />
+
+            <CheckBox
+                android:id="@+id/checkBoxVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video - $200" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFotografia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fotografía - $180" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPersonalDeServicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal de servicio - $120" />
+
+            <CheckBox
+                android:id="@+id/checkBoxLimpieza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limpieza (antes y después del evento) - $80" />
+
+            <CheckBox
+                android:id="@+id/checkBoxOtrosGastos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Otros gastos - $50" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="139dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:text="Servicios"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
